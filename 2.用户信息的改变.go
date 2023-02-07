@@ -24,16 +24,16 @@ func (u *User) UpdateAddress(address string) {
 
 func main() {
 	user := &User{
-		Name:    "John",
-		Age:     30,
-		Address: "New York",
+		Name:    "wyb",
+		Age:     20,
+		Address: "Nan Shan",
 	}
 
 	fmt.Printf("User: %+v\n", user)
 
-	user.UpdateName("Jack")
-	user.UpdateAge(35)
-	user.UpdateAddress("Los Angeles")
+	user.UpdateName("WYB")
+	user.UpdateAge(22)
+	user.UpdateAddress("CQUPT")
 
 	fmt.Printf("User: %+v\n", user)
 }
